@@ -1,0 +1,25 @@
+	
+	// Import compass and dependencies
+	@import "compass";
+	@import "breakpoint";
+
+	// Sassy parts
+	@import "_mixins.scss";
+	@import "_variables.scss";
+
+	// components
+	@import "_navigation.scss";
+
+	* {
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box;
+		// -webkit-font-smoothing: antialiased;
+	}
+
+	html {
+	}
+
+	body {
+	}
+

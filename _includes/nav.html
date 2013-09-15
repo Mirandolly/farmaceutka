@@ -1,0 +1,19 @@
+<img class="logo img-responsive" src="/design/logo.png" alt="Corporate Fight Gym">
+<div class="navbar">
+
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+
+	<div class="nav-collapse collapse navbar-responsive-collapse">
+		<ul class="nav navbar-nav">
+			{% for link in site.navigation %}
+				<li {% if page.url == link.url %}class="active"{% endif %}>
+					<a href="{{link.url}}">{{link.text | upcase}}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
