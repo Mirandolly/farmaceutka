@@ -47,7 +47,7 @@ kramdown:
 navigation:
 - text: Home
   url: /index.html
-- text: About Us
+- text: About
   url: /about.html
 - text: Contact
   url: /contact.html

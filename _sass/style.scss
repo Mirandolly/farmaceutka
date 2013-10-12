@@ -7,19 +7,27 @@
 	@import "_mixins.scss";
 	@import "_variables.scss";
 
-	// components
+	// Layout components
 	@import "_navigation.scss";
-
-	* {
-		-moz-box-sizing: border-box; 
-		-webkit-box-sizing: border-box; 
-		box-sizing: border-box;
-		// -webkit-font-smoothing: antialiased;
-	}
+	@import "_footer.scss";
 
 	html {
 	}
 
 	body {
+		font-family: Georgia, serif;
+		color: #666;
+	}
+	
+	a {
+		color: $blue;
+		text-decoration: none;
+		&:visited {
+			color: $green;
+		}
 	}
 
+	.container {
+		max-width: 34em;
+		margin: 0 auto;
+	}
